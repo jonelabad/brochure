@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="brochure-logo.png" alt="brochure-logo" type="image/x-icon">
+    <title>Discover the Wonders of the Philippines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .welcome {
+            text-align: center;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        .welcome h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .welcome p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        #continue-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, box-shadow 0.3s;
+
+        }
+
+        #continue-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            outline: 2px solid rgba(0, 0, 0, 0.1);
+
+        }
+
+        .image-slider {
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            position: relative;
+            height: 150px;
+        }
+
+        .image-slider-wrapper {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll 20s linear infinite;
+
+        }
+
+        .image-slider img {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 5px;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1>Travel Destinations</h1>
+        <p>Discover the stunning beauty and rich culture of the Philippines through its remarkable tourist spots.</p>
+        <a href="homepage.html" id="continue-btn">Go to Homepage</a>
+    </div>
+
+    <div class="image-slider">
+        <div class="image-slider-wrapper">
+            <img src="https://assets.rappler.com/1C2416B3C85248EEA8927469F158D38B/img/D2EC37E791784E16BCCFD04F926F5690/04.jpg"
+                alt="Image 1">
+            <img src="https://wallpaperaccess.com/full/5437151.jpg" alt="Image 2">
+            <img src="https://res.cloudinary.com/thetripguru/image/upload/fl_lossy.progressive,e_improve/q_auto:low,c_scale,f_auto,dpr_auto,w_2158/yjp1qjcstmhqsx8uwsqc"
+                alt="Image 3">
+            <img src="https://i.pinimg.com/originals/76/80/5e/76805e64d99fe9ef825fbcb184ab6fb2.jpg" alt="Image 4">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/9/9f/Vigan%2C_Heritage_City_of_the_Philippines.jpg"
+                alt="Image 5">
+            <img src="https://www.roadaffair.com/wp-content/uploads/2019/08/kawasan-falls-cebu-philippines-shutterstock_563334214.jpg"
+                alt="Image 6">
+            <img src="https://theworldpursuit.com/wp-content/uploads/2019/06/What-to-do-in-Siargao.jpg" alt="Image 7">
+            <img src="https://i2.wp.com/lesglobeblogueurs.com/wp-content/uploads/2018/03/Coron-lac-kayangan.jpg"
+                alt="Image 8">
+            <img src="https://tripsupport.ca/wp-content/uploads/2021/09/manila_intramuros_FortSantiago.jpg"
+                alt="Image 9">
+            <img src="https://jamescarveronline.com/wp-content/uploads/2017/01/tagaytay-volcano.jpg" alt="Image 10">
+            <img src="http://3.bp.blogspot.com/-dGRQMk28IE4/VMf7nAnRZ5I/AAAAAAAALFk/MFxbLDrkPU0/s1600/Batanes%2BBlog.jpg"
+                alt="Image 11">
+            <img src="http://2.bp.blogspot.com/-P5COluL-FJE/VPQrwSsuPvI/AAAAAAAAAVE/STYv5kT7VVE/s1600/mayon.jpg"
+                alt="Image 12">
+            <img src="http://farm4.staticflickr.com/3689/10607136134_29ac305ccf_h.jpg" alt="Image 13">
+            <img src="https://4.bp.blogspot.com/-2ihlZ8ZRMjI/UyEUx4vNTiI/AAAAAAAAEoM/ujeB3eSRB8Q/s1600/Pulag-43s.jpg"
+                alt="Image 14">
+            <img src="https://www.projectlupad.com/wp-content/uploads/2017/08/Siquijor-x-Dumaguete-Aerial-Tour-Project-LUPAD-JPG.jpeg"
+                alt="Image 15">
+            <img src="https://live.staticflickr.com/7806/46375740432_2668119fa9_h.jpg" alt="Image 16">
+            <img src="https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/11/02174408/ekwdpx.jpg"
+                alt="Image 17">
+            <img src="https://www.rappler.com/tachyon/2021/10/shutterstock-camiguin-island.jpg" alt="Image 18">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_UEhmMP8bCGEcaR4ipv_75rAX0dvZzlIikDJvVWA9COJaFyQ0ZKfW57BpSc6ZAuRRQ6SC00brByYqolaN-ff7_GmNpPsvklb7uo0DVLPQxpbXk-vnnD0Uy3rB_mjZfcRg5-izWbm2WqxrmC_y71UJzHOE9zRg9RQfItpcbxkfH3HH7kvQLmPHclh/s960/Venice%20Grand%20Canal%20Taguig.jpg"
+                alt="Image 19">
+            <img src="http://attracttour.com/wp-content/uploads/2013/10/Enchanted-River-17.jpg" alt="Image 20">
+
+            <!-- Duplicated images for continuous effect -->
+            <img src="https://assets.rappler.com/1C2416B3C85248EEA8927469F158D38B/img/D2EC37E791784E16BCCFD04F926F5690/04.jpg"
+                alt="Image 1">
+            <img src="https://wallpaperaccess.com/full/5437151.jpg" alt="Image 2">
+            <img src="https://res.cloudinary.com/thetripguru/image/upload/fl_lossy.progressive,e_improve/q_auto:low,c_scale,f_auto,dpr_auto,w_2158/yjp1qjcstmhqsx8uwsqc"
+                alt="Image 3">
+            <img src="https://i.pinimg.com/originals/76/80/5e/76805e64d99fe9ef825fbcb184ab6fb2.jpg" alt="Image 4">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/9/9f/Vigan%2C_Heritage_City_of_the_Philippines.jpg"
+                alt="Image 5">
+            <img src="https://www.roadaffair.com/wp-content/uploads/2019/08/kawasan-falls-cebu-philippines-shutterstock_563334214.jpg"
+                alt="Image 6">
+            <img src="https://theworldpursuit.com/wp-content/uploads/2019/06/What-to-do-in-Siargao.jpg" alt="Image 7">
+            <img src="https://i2.wp.com/lesglobeblogueurs.com/wp-content/uploads/2018/03/Coron-lac-kayangan.jpg"
+                alt="Image 8">
+            <img src="https://tripsupport.ca/wp-content/uploads/2021/09/manila_intramuros_FortSantiago.jpg"
+                alt="Image 9">
+            <img src="https://jamescarveronline.com/wp-content/uploads/2017/01/tagaytay-volcano.jpg" alt="Image 10">
+            <img src="http://3.bp.blogspot.com/-dGRQMk28IE4/VMf7nAnRZ5I/AAAAAAAALFk/MFxbLDrkPU0/s1600/Batanes%2BBlog.jpg"
+                alt="Image 11">
+            <img src="http://2.bp.blogspot.com/-P5COluL-FJE/VPQrwSsuPvI/AAAAAAAAAVE/STYv5kT7VVE/s1600/mayon.jpg"
+                alt="Image 12">
+            <img src="http://farm4.staticflickr.com/3689/10607136134_29ac305ccf_h.jpg" alt="Image 13">
+            <img src="https://4.bp.blogspot.com/-2ihlZ8ZRMjI/UyEUx4vNTiI/AAAAAAAAEoM/ujeB3eSRB8Q/s1600/Pulag-43s.jpg"
+                alt="Image 14">
+            <img src="https://www.projectlupad.com/wp-content/uploads/2017/08/Siquijor-x-Dumaguete-Aerial-Tour-Project-LUPAD-JPG.jpeg"
+                alt="Image 15">
+            <img src="https://live.staticflickr.com/7806/46375740432_2668119fa9_h.jpg" alt="Image 16">
+            <img src="https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/11/02174408/ekwdpx.jpg"
+                alt="Image 17">
+            <img src="https://www.rappler.com/tachyon/2021/10/shutterstock-camiguin-island.jpg" alt="Image 18">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_UEhmMP8bCGEcaR4ipv_75rAX0dvZzlIikDJvVWA9COJaFyQ0ZKfW57BpSc6ZAuRRQ6SC00brByYqolaN-ff7_GmNpPsvklb7uo0DVLPQxpbXk-vnnD0Uy3rB_mjZfcRg5-izWbm2WqxrmC_y71UJzHOE9zRg9RQfItpcbxkfH3HH7kvQLmPHclh/s960/Venice%20Grand%20Canal%20Taguig.jpg"
+                alt="Image 19">
+            <img src="http://attracttour.com/wp-content/uploads/2013/10/Enchanted-River-17.jpg" alt="Image 20">
